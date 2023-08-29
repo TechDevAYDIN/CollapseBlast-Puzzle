@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 114726267}
   - component: {fileID: 114726266}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: PassedPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -531,6 +531,8 @@ MonoBehaviour:
   field: {fileID: 629039481}
   matches: []
   matchedSquares: []
+  scorePrefab: {fileID: 3060439056021422913, guid: d751e33c8b9134c458264aa702c4b37e, type: 3}
+  scorePanel: {fileID: 1292282735}
 --- !u!4 &187333980
 Transform:
   m_ObjectHideFlags: 0
@@ -800,7 +802,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
